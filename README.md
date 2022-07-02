@@ -43,3 +43,5 @@ This is a session-based authentication example with passport.  This example uses
 - [Tab Nine](https://www.tabnine.com/code/javascript/functions/express/Response/clearCookie) - clear cookie
 - [NPM](https://www.npmjs.com/package/express-session) - express session
 - [Stack Overflow](https://stackoverflow.com/questions/54674387/how-do-nodes-bcrypt-and-bcryptjs-libraries-differ) - probably should have used bcrypt instead
+- [Stack Overflow](https://stackoverflow.com/questions/31641884/does-passports-logout-function-remove-the-cookie-if-not-how-does-it-work#:~:text=Well%2C%20you%20don't%20need,destroyed%20but%20it%20is%20invalidated.) - passport logout & cookies
+- [Stack Overflow](https://stackoverflow.com/questions/27978868/destroy-cookie-nodejs) - destroy cookie
