@@ -5,6 +5,7 @@
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Built With](#built-with)
+  - [Continued Development](#continued-development)
 - [Useful Resources](#useful-resources)
 
 ## Overview
@@ -29,6 +30,11 @@ This is a session-based authentication example with passport.  This example uses
 - mongoose
 - passport
 - passport-local
+
+### Continued Development
+
+- res.clearCookie is not working.  However, the logout method of passport does remove the user info from the cookie.  The cookie is not deleted entirely.
+- saveUnitialized is set to true when it should be false.  You want the session to begin once the user logs in.   
 
 ## Useful Resources
 
